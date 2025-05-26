@@ -1,0 +1,41 @@
+:host {
+  max-width: 500px;
+  width: 80%;
+  min-width: 300px;
+
+  max-height: 800px;
+  height: 80%;
+  min-height: 700px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+
+  background-color: #202020;
+  color: #fef4f5;
+}
+
+nav.panel-navigation {
+  width: 100%;
+  height: 75px;
+
+  background-color: #404040;
+  color: #fef4f5;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+button.panel-selector {
+  width: 95%;
+  height: 95%;
+
+  background-color: transparent;
+  color: #fef4f5;
+
+  border: none;
+  border-bottom: solid 5px #f2f3fe;
+}
