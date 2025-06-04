@@ -1,9 +1,12 @@
+import { LoginPanel } from './LoginPanel/LoginPanel.jsx'
+import { RegisterPanel } from './RegisterPanel/RegisterPanel.jsx'
 import './App.css'
 
 export function App() {
   return (
     <>
-      <h1>Test</h1>
+      <LoginPanel />
+      <RegisterPanel />
     </>
   )
 };
