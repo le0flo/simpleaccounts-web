@@ -1,5 +1,3 @@
 # Simple Accounts - Web
 
-### Installation
-
-- *TODO*
+*WIP*
